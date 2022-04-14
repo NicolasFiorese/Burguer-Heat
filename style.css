@@ -1,0 +1,82 @@
+body {
+
+     margin: auto;
+     width: 60%;
+    background-image: url(https://images.unsplash.com/photo-1594078186749-7500028c07da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+
+ }
+
+
+
+
+ header {
+   display: flex;
+   justify-content: center;
+   background-color: rgb(228, 101, 28);
+   opacity: 85%;
+   margin-left: 600px;
+   margin-right: 600px;
+   border-radius: 5px;
+ }
+
+ header ul li {
+     list-style: circle;
+
+ }
+
+ header ul li h1,h2 {
+     font: 400 1.8rem 'Pacifico', sans-serif;
+     text-align: left;
+ }
+
+ section form ul li {
+   list-style: none;
+ }
+
+
+
+ section form ul li label {
+     font-size: 22px;
+     
+ }
+
+ section {
+   margin-top: 1%;
+   display: flex;
+   justify-content: center;
+   font-size: medium;
+
+ }
+
+ section button {
+   margin: 5px;
+   font-size: 20px;
+ }
+
+ table, th, td {
+   border: 2px solid black;
+   border-collapse: collapse;
+   border-radius: 5px;
+   font-size: medium;
+ }
+
+ #section1 {
+   background-color: azure;
+   opacity: 90%;
+   margin-left: 650px;
+   margin-right: 650px;
+   border-radius: 15px 50px 30px;
+   font: 400 1rem 'Oswald', sans-serif;
+
+ }
+
+ #table {
+   background-color: orange;
+   margin-left: 635px;
+   margin-right: 635px;
+   border-radius: 15px;
+ }

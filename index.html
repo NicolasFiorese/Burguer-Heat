@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vendas de Hamburguers</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          <h1>Burguer Heat</h1>
+        </li>
+        <li><h2>Vendas de Hamburguer</h2></li>
+      </ul>
+    </header>
+
+    <section id="section1">
+      <form>
+        <h3>Selecione o hamburguer vendido:</h3>
+        <ul>
+          <li>
+            <input type="radio" id="XBurguer" name="hamburguers" />
+            <label for="XBurguer">X-Burguer</label>
+          </li>
+
+          <li>
+            <input type="radio" id="XSalada" name="hamburguers" />
+            <label for="XSalada">X-Salada</label>
+          </li>
+
+          <li>
+            <input type="radio" id="XBacon" name="hamburguers" />
+            <label for="XBacon">X-Bacon</label>
+          </li>
+        </ul>
+      </form>
+    </section>
+
+    <section>
+      <button id="vendas">Adicionar</button>
+      <button id="estorno">Estornar</button>
+    </section>
+
+    <section id="table">
+      <table>
+        <tr>
+          <th>Cardápio</th>
+          <th>Quantidade</th>
+          <th>Valor Total</th>
+        </tr>
+        <tr>
+          <td>X-Burguer</td>
+          <td id="resultadoXBurguer"></td>
+          <td id="vendaXBurguer"></td>
+        </tr>
+        <tr>
+          <td>X-Salada</td>
+          <td id="resultadoXSalada"></td>
+          <td id="vendaXSalada"></td>
+        </tr>
+        <tr>
+          <td>X-Bacon</td>
+          <td id="resultadoXBacon"></td>
+          <td id="vendaXBacon"></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <button id="export">Planilha</button>
+    </section>
+    <script src="tableToExcel.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
